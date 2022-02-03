@@ -2,6 +2,15 @@
 body, html {
     font-family:"Times New Roman", Times, Serif;
 }
+/*continers*/
+.conatiner {
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+.conatiner2 {
+        margin-left: 20%;
+        margin-right: 20%;
+        }
 /*img*/
 .headimg {
     width: 50%;
@@ -50,7 +59,21 @@ body, html {
 .NavBar li a:hover {
     text-decoration: white underline;
 }
-.conatiner {
-margin-left: 20%;
-margin-right: 20%;
+/*sidelist*/
+.sidelist {
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 20px;
+    overflow: hidden;
+    float: left;
+    list-style-type: none;
+    height: auto;
+    margin: 10px;
+    vertical-align: middle;
+}
+.sidelist li a {
+    text-decoration: none;
+    color: black;
+}
+.sidelist li a:hover {
+    text-decoration: black underline;
 }
